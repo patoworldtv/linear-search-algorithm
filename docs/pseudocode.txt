@@ -1,0 +1,10 @@
+Input: array of numbers, size n, target value x
+Output: index of x if found, otherwise -1
+
+for i from 0 to n−1 do
+    if array[i] == x then
+        return i
+    end if
+end for
+
+return -1
