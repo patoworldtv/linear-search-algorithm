@@ -14,6 +14,12 @@ int main() {
     int arr[] = {3, 7, 1, 9, 4, 2};
     int n = sizeof(arr) / sizeof(arr[0]);
 
+    cout << "Array: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << "\n";
+
     int x;
     cout << "Enter value to search: ";
     cin >> x;

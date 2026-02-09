@@ -5,8 +5,12 @@ Decision: i < n?
     Yes:
         Compare array[i] with x
         Decision: array[i] == x?
-            Yes: return i → End
-            No: i = i + 1 → go back to "i < n?"
+            Yes:
+                Return i
+                End
+            No:
+                Increment i
+                Go back to "i < n?"
     No:
-        return -1
-End
+        Return -1
+        End
